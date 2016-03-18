@@ -8,7 +8,7 @@
 
 $("a[class='list']").each(function(k,v) {
     var name = $(v).attr("title");
-    var vwn = name.match(/^[A-S][a-z]*$/); //Change letters in first [] for names that start with certian letters   
+    var vwn = name.match(/^[A-Z][a-z]*$/); //Change letters in first [] for names that start with certian letters   
     if (vwn != null){
         console.log(""+vwn);
     }
